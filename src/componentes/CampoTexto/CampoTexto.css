@@ -1,0 +1,33 @@
+.campo-texto {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+.campo-texto label {
+    color: rgba(0, 47, 82, 1);
+    font-weight: 700;
+    margin-left: 16px;
+}
+.campo-texto input {
+    padding: 10px 24px;
+    border: 1px solid rgba(0, 47, 82, 1);
+    border-radius: 24px;
+}
+.campo-texto input:focus {
+    border-color:  rgba(235, 155, 0, 1);
+    outline: none;
+    color: rgba(0, 47, 82, 1);
+}
+.campo-texto input::placeholder {
+    font-size: 16px;
+    color: rgba(164, 164, 164, 1);
+}
+.senhaNaoCorrespondente label  {
+    color: rgb(197, 0, 0);
+}
+.senhaNaoCorrespondente input {
+    border: 1px solid rgb(197, 0, 0);
+}
+.senhaNaoCorrespondente input::placeholder {
+    color: rgb(197, 0, 0);
+}

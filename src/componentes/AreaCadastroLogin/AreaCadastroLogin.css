@@ -1,0 +1,25 @@
+.area-cadastro-login {
+    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding: 120px 150px;
+}
+.area-texto {
+    display: flex;
+    flex-direction: column;
+}
+.area-texto h3 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFF;
+}
+.area-texto p {
+    font-weight: 300;
+    color: #FFF;
+}
+.area-botoes {
+    display: flex;
+    gap: 8px;
+}

@@ -1,0 +1,35 @@
+.container-news {
+    color:  rgba(0, 47, 82, 1);
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 80px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.30);
+}
+.container-news h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 19px;
+}
+.container-news p {
+    font-weight: 300;
+}
+.news-email input {
+    font-weight: 300;
+    border: 1px solid rgba(0, 47, 82, 1);
+    padding: 10px 50px;
+    background-image: url('./assets/iconLetter.png');
+    background-repeat: no-repeat;
+    background-position: 17px center;
+    width: 380px;
+    border-radius: 24px;
+}
+.news-email input::placeholder {
+    text-align: left;
+    font-size: 16px;
+    color: rgba(0, 47, 82, 1);
+}
+.news-email {
+    display: flex;
+    align-items: center;
+}

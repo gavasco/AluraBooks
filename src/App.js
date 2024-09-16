@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Home from '../src/paginas/Home/Home';
+import UltimosPedidos from './paginas/UltimosPedidos/UltimosPedidos'
+import BarraNavegacao from './componentes/BarraNavegacao/BarraNavegacao';
+import Rodape from './componentes/Rodape/Rodape';
 
-function App() {
+function AppRouter() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BarraNavegacao />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/ultimos-pedidos' element={<UltimosPedidos />} />
+      </Routes>
+      <Rodape />
+    </>
   );
 }
 
-export default App;
+export default AppRouter;

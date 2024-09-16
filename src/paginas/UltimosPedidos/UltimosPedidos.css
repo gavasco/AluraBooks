@@ -1,0 +1,51 @@
+
+.conta-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    padding: 54px;
+}
+.conta-banner h1 {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 40px;
+    text-shadow: 0 0 5px #fff
+}
+.conta-conteudo {
+    display: flex;
+    padding: 80px 60px;
+    gap: 45px;
+    
+}
+.conteudo-aside {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-width: 200px;
+}   
+.aside-link {
+    color:  rgba(0, 47, 82, 1);
+    border-bottom: 1px solid  rgba(0, 47, 82, 1);
+    padding: 8px 50px;
+}
+.conteudo-aside p:hover {
+   font-weight: 700;
+}
+.conta-textos {
+    width: 100%;
+    
+}
+.textos-display {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid  rgba(0, 47, 82, 1);
+}
+.textos {
+    padding: 20px ;
+}
+.textos-botao {
+    display: flex;
+    align-self: flex-end;
+    padding-bottom: 20px;
+}

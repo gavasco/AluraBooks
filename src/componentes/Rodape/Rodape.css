@@ -1,0 +1,34 @@
+.container-rodape {
+    padding: 56px 24px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(249, 249, 249, 1);
+}
+.itens-titulo {
+    color: rgba(133, 133, 133, 1);
+    font-size: 14px;
+}
+.container-rodape h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.rodape-itens {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-width: 200px;
+}
+.rodape-itens li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.rodape-itens li p {
+    color: rgba(71, 70, 70, 1);
+    font-size: 14px;
+}
+.rodape-itens li p:hover {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}

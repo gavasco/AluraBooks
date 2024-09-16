@@ -1,0 +1,7 @@
+.container-titulo {
+    text-align: center;
+    padding: 16px;
+}
+.modal-aberto {
+    opacity: 0.5;
+}
